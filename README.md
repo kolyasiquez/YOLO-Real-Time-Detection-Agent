@@ -25,7 +25,7 @@ If a target is found with confidence above threshold:
 
 The script simulates pressing the E key.  
 
-Then player is moving using simple algorithm (2 times left, 2 times right and it continues instantly.  
+Then player is moving using simple algorithm (2 times left, 2 times right and it repeats instantly.  
 
 Stops when K is pressed.  
  
