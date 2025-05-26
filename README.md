@@ -2,24 +2,31 @@
 Real-time object detection &amp; low-level input automation using YOLOv8, OpenCV, and Windows API
 
 🧠 Real-time Object Detection & Response Automation  
-This project demonstrates the application of computer vision (YOLOv8), low-level input emulation (via Windows API), and screen capture (MSS) to create a real-time automation system for the game (in this case).
+This project demonstrates the application of `computer vision (YOLOv8)`, low-level input emulation (via `Windows API`), and screen capture (`MSS`) to create a real-time automation system for the game (in this case).
 
 📊 Dataset & Training  
-The object detection model was trained using a small custom dataset (I took screenshots in the game by myself) created with Roboflow. I used only one class named "zombies" to detect them.  
-The model was trained with YOLOv8 for 50 epochs on this dataset, achieving good precision in the target detection scenario, especially considering dataset's small size.  
+The object detection model was trained using a small custom dataset (I took screenshots in the game by myself) created with `Roboflow`. I used only one class named "zombies" to detect them.  
+The model was trained with YOLOv8 for 50 epochs on this dataset, achieving good precision in the target detection scenario, especially considering dataset's small size.
+I used this command to train the model:
+```
+yolo task=detect mode=train model=yolov8n.pt data=path/to/data.yaml epochs=50 imgsz=640
+```
 
 👁 Screenshot showing model's detection of zombies on the first validation batch:   
 
 <img src="https://github.com/user-attachments/assets/37ba0730-9d31-4bf4-881c-796d0da138f8" width="480"/>  
 
+📁 Model File  
+The detection relies on a custom-trained model file `best.pt`, which contains the weights obtained after training YOLOv8 on the "zombies" dataset.
   
 ⚙️ Tech Stack  
-Python 3.12.6  
+Python 
 Ultralytics YOLOv8  
 OpenCV  
 MSS (Screen capture)  
 ctypes (Windows input emulation)  
 keyboard (keypress monitoring)  
+
 
 🚀 How It Works  
 The screen is continuously captured from the specified region.  
