@@ -25,8 +25,26 @@ Ultralytics YOLOv8
 OpenCV  
 MSS (Screen capture)  
 ctypes (Windows input emulation)  
-keyboard (keypress monitoring)  
+keyboard (keypress monitoring)   
 
+📦 Installation  
+1. **Install Python 3.12+**  
+   (https://www.python.org/downloads/)
+
+2. **Clone the repository**
+   ```cmd
+   git clone https://github.com/your-username/YOLO-Real-Time-Detection-Agent.git
+   cd YOLO-Real-Time-Detection-Agent
+   
+Install dependencies:
+  `
+  pip install -r requirements.txt
+  `   
+Make sure best.pt is in the root folder (or change the path in the script), then:
+
+  ```cmd
+  python YOLO-Real-Time-Detection-Agent.py
+```
 
 🚀 How It Works  
 The screen is continuously captured from the specified region.  
