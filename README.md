@@ -34,7 +34,7 @@ Stops when K is pressed.
 
 
 🧪 Example Use Case  
-Automating interactions in 2D/3D games (fighting zombies in lobby in this case) 
+Automating interactions in 2D/3D games (fighting zombies in lobby in this case)   
 ⚠️ Disclaimer:  
 This GIF showcases gameplay from PANICORE used solely for demonstrating the object detection model’s performance. All game content belongs to their respective owners. This is not an official promotion or endorsement.
 
