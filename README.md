@@ -7,6 +7,8 @@ This project demonstrates the application of computer vision (YOLOv8), low-level
 📊 Dataset & Training  
 The object detection model was trained using a small custom dataset (I took screenshots in the game by myself) created with Roboflow. I used only one class named "zombies" to detect them.  
 The model was trained with YOLOv8 for 50 epochs on this dataset, achieving good precision in the target detection scenario, especially considering dataset's small size.
+Screenshot showing model's detection of zombies on the first validation batch: 
+![val_batch0_labels](https://github.com/user-attachments/assets/37ba0730-9d31-4bf4-881c-796d0da138f8)
 
 ⚙️ Tech Stack  
 Python 3.12.6  
@@ -33,3 +35,4 @@ Stops when K is pressed.
 
 🧪 Example Use Case  
 Automating interactions in 2D/3D games (fighting zombies in lobby in this case)  
+
