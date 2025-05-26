@@ -37,6 +37,7 @@ Stops when K is pressed.
 Automating interactions in 2D/3D games (fighting zombies in lobby in this case)   
 
 ⚠️ Disclaimer:  
-This GIF showcases gameplay from PANICORE used solely for demonstrating the object detection model’s performance. All game content belongs to their respective owners. This is not an official promotion or endorsement.
+This GIF showcases gameplay from PANICORE used solely for demonstrating the object detection model’s performance. All game content belongs to their respective owners. This is not an official promotion or endorsement.  
 
+![model_is_working](https://github.com/user-attachments/assets/b7786aca-a9e6-4a7c-8a10-0b0a128b3d52)
 
