@@ -33,7 +33,7 @@ keyboard (keypress monitoring)
 
 2. **Clone the repository**
    ```cmd
-   https://github.com/kolyasiquez/YOLO-Real-Time-Detection-Agent.git
+   git clone https://github.com/kolyasiquez/YOLO-Real-Time-Detection-Agent.git
    cd YOLO-Real-Time-Detection-Agent
    
 Install dependencies:
